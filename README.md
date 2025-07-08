@@ -8,34 +8,31 @@ This is the Connected Bradford Death Certificates GitHub page where you can find
 
 Contains the scripts and documentation for DeathCertificates
 
-It contains approximately 200,000 records. The dataset has been fully anonymised, but can link to other FDM's.
+The dataset has been fully anonymised, but can link to other FDM's.
 
 There is one FDM for DeathCertificates . 
 
-CB_FDM_DeathCertificates_v1- build date 2023-11-15 - data up to 2021-07-13
+CB_FDM_DeathCertificates - build date 2025-07-01 - data up to 2025-02-19
 
 
 # DeathCertificates
 The DeathCertificates FDM is made up of 1 source table (summarised below and data dictionaries linked) from routinely collected data for 219,276  individuals and their routinely collected clinical data. 
 
-The dates relevant for the latest build are: 1904-01-15	to 2023-08-22
-
-
-
-
 
 The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
 
 ### Standard FDM tables included in this dataset*
-person.
 
-observation period.
+person
 
-visit.
+personLSOA
+
+tmp_persons_distinct
+
 
 ### The source data tables are: 
 
-tbl_NEC_Deaths_QWO_20230817_RELEASE
+cb_NEC_Deaths
 
 
 
